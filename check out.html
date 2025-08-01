@@ -1,0 +1,153 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Out</title>
+    <link rel="icon" href="./icons/5-stars.png" type="png" />
+    <link rel="stylesheet" href="checkout.css">
+  </head>
+  <body>
+<nav class="navmain">
+        <h1 id="hotel">Hotel Del Luna</h1>
+        <ul type="none" class="nav-items">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="Reservation.html">Reservation</a></li>
+            <li><a href="Order Tracking.html">Order Tracking</a></li>
+            <li><a href="Contact Us.html">Contact US</a></li>
+        </ul>
+
+        <div class="image">
+            <a href="you cart.html" class="imgcont"><img src="./icons/cart-shopping-solid.svg" alt="Shopping icon"></a>
+            <a href="login.html"> <button class="btnlog">Login</button></a>
+        </div>
+    </nav>>
+
+  
+        <h1 id="titl">Secure Checkout </h1>
+ 
+
+    <div class="card-main">
+        <div class="card-1">
+            <h2 class="bord">Order Summary</h2>
+            <div style="padding: 30px;">
+                <span>Signature Biryani x 1</span>
+                <span style="float: right;">&dollar;4.99</span>
+               <hr style="color: #ddd; margin-top:1rem;"> 
+            </div>
+            
+<!-- 2nd -->
+            <div class="card-child">
+                <span>Subtotal</span>
+                <span  style="float: right;">&dollar;4.99</span>
+            </div>
+            <!-- 3rd -->
+             <div class="card-child">
+                <span>Delivery Fee</span>
+                <span style="float: right;">&dollar;2.99</span>
+            </div>
+
+            <div class="card-child">
+                <h4>Total</h4>
+                <h4 style="float: right;">&dollar;7.98</h4>
+            </div>
+        </div>
+        <!-- card 2 -->
+         <div class="deli-info">
+            <h2 class="bord">Delivery Information</h2>
+            <div class="inp-main">
+                <label for="name">Full Name</label>
+                <input type="text" name="" id="name" class="inpp">
+            </div>
+            <!-- ph -->
+            <div class="inp-main">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="" id="phone" class="inpp">
+            </div>
+<!-- email -->
+  <div class="inp-main">
+                <label for="emaill">Email Address</label>
+                <input type="eamil" name="emaill" id="eamill"  class="inpp">
+            </div>
+            <div class="text-main">
+                <label for="Del">Delivery Address</label>
+                <textarea name="" id="Del"  rows="7"></textarea>
+            </div>
+
+            <!-- instruction textarea -->
+              <div class="text-main">
+                <label for="Del-op">Delivery Instructions (Optional)</label>
+                <textarea name="" id="Del-op" rows="7"></textarea>
+            </div>
+            <h2 class="bord">Payment Method</h2>
+            <div >
+                <div >
+                    <div class="rad-ch"  >
+                    <input type="radio" name="" id="c-debit" style="width: 20px;">
+                    <label for="">Credit/Debit Card</label >
+                        </div>
+                        <div class="rad-ch"  >
+                            
+                        <input type="radio" name="" id="c-del" style="width: 20px;">
+                    <label for="">Cash on Delivery</label>
+                    </div>
+                </div>
+                <hr>
+                
+                <div >
+                    <label for="cnum">Card Number</label>
+                    <input class="inpp" type="text" name="" id="cnum" pattern="[0-9]{10}" placeholder="123 4456 77888">
+                </div>
+                <div class="exp">
+                    <div class="exp-ch">
+                    <label for="epirey">Expiry Date</label>
+                    <input class="inpp" type="text" name="" id="epirey" placeholder="MM/YY">
+                    </div>
+
+                    <div class="exp-ch">
+                    <label for="cvc">CVV</label>
+                    <input type="text" class="inpp"  name="cvc"  id="cvc" placeholder="123">
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <button type="button" class="can">Cancel</button>
+                <a class="plce" href="Order confirmation.html"><button type="button">Place Order</button></a>
+            </div>
+         </div>
+    </div>
+
+
+
+    <!-- footer -->
+     <footer class="foot">
+        <div class="footer-main">
+            <h3 class="tit2">Visit Us</h4>
+                <p id="pop"> 123 Food Street, City, Country</p>
+        </div>
+
+        <div class="footer-main">
+            <h3 class="tit2">Contact Us</h4>
+                <p id="phone">+1 234 567 890 <br>
+                <p id="envolop"> info@delluna.com</p>
+                </p>
+        </div>
+        <div class="footer-main">
+            <h3 class="tit2">Follow Us</h4>
+                <div class="footerm2">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./icons/facebook-brands.svg"
+                            alt="facebook icon" width="22"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./icons/instagram-brands.svg"
+                            alt="instagram icon" width="30"></a>
+                    <a href="https://x.com/" target="_blank"><img src="./icons/twitter-brands.svg" alt="twitter icon"
+                            width="30"></a>
+                </div>
+
+        </div>
+        <hr style="color: rgb(138, 137, 137);">
+        <div class="ftfoot">
+            &copy;2025 Hotel Del Luna All Rights Reserved
+        </div>
+    </footer>
+  </body>
+</html>

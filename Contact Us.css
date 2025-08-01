@@ -1,0 +1,412 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navmain {
+  box-shadow: 3px 0 3px 0 rgb(190, 189, 189);
+  padding: 16px;
+}
+
+#hotel {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  margin-left: 8rem;
+  color: #e67e22;
+}
+.nav-items {
+  display: inline-block;
+  margin-left: 8rem;
+}
+.image {
+  display: inline-block;
+  margin-left: 8rem;
+}
+.imgcont {
+  display: inline-block;
+  margin-left: 3rem;
+}
+li,
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-left: 18px;
+  font-size: 17px;
+  color: #333;
+}
+li > a:hover,
+a.active {
+  color: #e67e22;
+}
+
+img[alt="Shopping icon"] {
+  cursor: pointer;
+}
+.btnlog {
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e67e22;
+  color: white;
+  padding: 8px 23px 8px 19px;
+  text-align: center;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btnlog:hover {
+  background-color: #d35400;
+}
+/* navbar end */
+
+.main-class {
+  background-image: url("./images/HotedelLuna.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 16rem;
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  padding-top: 80px;
+}
+.cart-main {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+  text-align: center;
+}
+.carts {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  background-color: white;
+  margin: 0 2rem;
+  border-radius: 10px;
+  width: 13rem;
+  display: inline-block;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.carts:hover {
+  transform: translateY(-13px);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+#title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+}
+.sect {
+  padding: 3rem 0;
+}
+#form {
+  background-color: #f9f9f9;
+  width: 40%;
+  padding: 4rem 2rem;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+label {
+  display: block;
+  padding: 12px 0;
+  width: 96%;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+input {
+  display: block;
+  padding: 12px 0;
+  width: 96%;
+  border: none;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+::placeholder {
+  padding: 0 10px;
+}
+textarea {
+  height: 6rem;
+  border: 1px solid rgb(212, 212, 212);
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 95%;
+  transition: border-color 0.3s;
+}
+
+.inpp {
+  outline: none;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s;
+}
+.inpp:focus {
+  outline: none;
+  border-color: #ff6b6b;
+}
+.texta-main textarea:focus {
+  outline: none;
+  border-color: #ff6b6b;
+}
+.btnbook {
+  padding: 16px;
+  width: 70%;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  background-color: #e67e22;
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+.btnbook:hover {
+  background-color: #d35400;
+}
+#f-sect {
+  padding: 3rem 6rem;
+  background-color: #f9f9f9;
+}
+#sect-question {
+  padding: 2rem 0;
+}
+.man {
+  line-height: 2;
+  text-align: center;
+}
+#title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.m2 {
+  width: 40%;
+  display: block;
+  margin: auto;
+  margin-top: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid rgb(159, 159, 159);
+  background-color: #f2f1f1;
+}
+.data {
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+.data > h3 {
+  display: inline-block;
+}
+.btn {
+  display: inline-block;
+  background-color: #f9f9f9;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.data:hover > .btn {
+  transform: rotate(180deg);
+}
+.data:hover > .ddd {
+  display: block;
+}
+.ddd {
+  padding: 20px 10px;
+  background-color: rgb(253, 253, 253);
+  display: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  width: 95%;
+}
+/* footer */
+footer {
+  background-color: #333;
+  padding: 20px;
+  margin: 0 auto;
+}
+.tit2 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e67e22;
+}
+#pop::before {
+  content: "📍";
+}
+#phone::before {
+  content: "📞";
+}
+#envolop::before {
+  content: "📧";
+}
+.footer-main {
+  color: white;
+  display: inline-block;
+  margin-left: 12rem;
+  padding: 30px;
+  line-height: 2;
+}
+.ftfoot {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+}
+/* Responsive */
+@media screen and (max-width: 614px) {
+  #form {
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .nav-items {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 988px) {
+  #hotel {
+    text-wrap: nowrap;
+  }
+  .image {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+  }
+  .navitems {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .navmain {
+    display: block;
+  }
+  li > a {
+    margin-top: 0.3rem;
+  }
+  .image {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: center;
+  }
+  .tit {
+    font-size: 17px;
+  }
+  .tit2 {
+    font-size: 15px;
+  }
+  #pop {
+    font-size: 15px;
+  }
+  .ftfoot {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 496px) and (max-width: 942px) {
+  .cart {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .m2 {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .m2 {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 482px) {
+  .m2 {
+    width: 90% !important;
+  }
+  .data h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 789px) {
+  .cart {
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 788px) {
+  #frame {
+    width: 80% !important;
+    height: 80% !important;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  #frame {
+    margin-left: -3rem;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  #frame {
+    margin-left: -6rem;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .image {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 10px 0;
+  }
+  .imgcont {
+    width: 30px;
+  }
+  .btnlog {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 557px) {
+  .footer-main {
+    margin: auto;
+    line-height: 1.5;
+    padding: 16px;
+  }
+  #content {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 695px) {
+    .btnlog {
+      font-size: 13px;
+    }
+
+    .imgcont {
+      width: 30px;
+    }
+    #hotel {
+      font-size: 21px;
+    }
+    li > a {
+      font-size: small;
+    }
+  }
+  #hotel {
+    text-align: center;
+  }
+}

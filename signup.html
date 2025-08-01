@@ -1,0 +1,110 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="icon" href="./icons/5-stars.png" type="png" />
+  </head>
+  <body>
+    <form action="" id="form">
+      <h1 id="tit">Create Account</h1>
+      <p style="color: #666666; text-align: center">
+        Join us to manage your reservations easily
+      </p>
+
+      <div class="pad">
+        <label class="lab" for="name">Full Name</label>
+
+        <input
+          class="inpp"
+          type="text"
+          placeholder="Enter Your Name"
+          name="name"
+          id="name"
+          required
+        />
+      </div>
+
+      <div class="pad">
+        <label class="lab" for="email">Email Address</label>
+        <input
+          class="inpp"
+          type="password"
+          placeholder="Enter Your Email Address"
+          name="email"
+          id="email"
+          required
+        />
+      </div>
+
+      <div class="pad">
+        <label class="lab" for="ph">Phone Number</label>
+        <input
+          class="inpp"
+          type="tel"
+          placeholder="Enter Your phone number"
+          name="ph"
+          pattern="[0-9]{10}"
+          id="ph"
+          required
+        />
+      </div>
+
+      <div class="pad">
+        <label class="lab" for="pwd">Password</label>
+        <input
+          class="inpp"
+          type="password"
+          placeholder="Enter Your phone number"
+          name="pwd"
+          pattern="[0-9]{10}"
+          id="pwd"
+          required
+        />
+        <div style="line-height: 1.3; padding: 9px 4px">
+          <p style="color: #666666">
+            Password must be at least 8 characters long and include uppercase,
+            lowercase, number, and special character
+          </p>
+        </div>
+      </div>
+
+      <div class="pad">
+        <label class="lab" for="c-pwd">Confirm Password</label>
+        <input
+          class="inpp"
+          type="password"
+          placeholder="Enter Your phone number"
+          name="pwd"
+          pattern="[0-9]{10}"
+          id="c-pwd"
+          required
+        />
+      </div>
+
+      <button type="button" class="btnbook">Creat Account</button>
+
+      <div>
+        <p id="afbfd">Or sign in with</p>
+      </div>
+      <div class="social">
+        <button type="button" id="google">
+          <img src="./icons/google-brands.svg" alt="" width="15" /><span
+            >Google</span
+          >
+        </button>
+        <button type="button" id="facebook">
+          <img src="./icons/facebook-f-brands.svg" alt="" width="11" /><span
+            >Facebook</span
+          >
+        </button>
+      </div>
+      <div>
+        <p style="color: #666666; text-align: center">
+          Already have an account?<a href="./login.html" id="hov"> Login</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

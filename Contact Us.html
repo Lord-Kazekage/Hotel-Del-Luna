@@ -1,0 +1,161 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Page</title>
+  <link rel="icon" href="./icons/5-stars.png" type="png" />
+  <link rel="stylesheet" href="Contact Us.css">
+</head>
+
+<body>
+ <nav class="navmain">
+        <h1 id="hotel">Hotel Del Luna</h1>
+        <ul type="none" class="nav-items">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="Reservation.html">Reservation</a></li>
+            <li><a href="Order Tracking.html">Order Tracking</a></li>
+            <li><a href="Contact Us.html" class="active">Contact US</a></li>
+        </ul>
+
+        <div class="image">
+            <a href="you cart.html" class="imgcont"><img src="./icons/cart-shopping-solid.svg" alt="Shopping icon"></a>
+            <a href="login.html"> <button class="btnlog">Login</button></a>
+        </div>
+    </nav>
+
+  <div class="main-class">
+    <h1>Contact Us </h1>
+    <p>We'd love to hear from you</p>
+  </div>
+  <div class="cart-main">
+
+    <div class="carts">
+      <img src="./icons/contact page location-dot-solid.svg" alt="" width="30" style="padding: 0 8px;">
+      <h3>Visit Us</h3>
+      <p>123 Food Street</p>
+      <p>City, State 12345</p>
+    </div>
+
+    <div class="carts">
+      <img src="./icons/contact page phone-solid.svg" alt="" width="40" style="padding: 0 8px;">
+      <h3>Call Us</h3>
+      <p>+923480387608</p>
+      <p>Mon-Sun: 10 AM - 10 PM</p>
+    </div>
+    <div class="carts">
+      <img src="./icons/contact page envelope-solid.svg" alt="" width="40" style="padding: 0 8px;">
+      <h3>Email Us</h3>
+      <p>info@HotelDel.com</p>
+      <p>reservations@HotelDel.com</p>
+    </div>
+  </div>
+
+  <section class="sect">
+    <form action="" id="form">
+      <h3 id="title">Send Us a Message</h3>
+      <div class="inp-main">
+        <label for="fullname">Full Name</label>
+        <input type="text" class="inpp" required placeholder="Enter full name" name="fullname" id="fullname" />
+      </div>
+      <!-- 2nd input -->
+      <div class="inp-main">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" class="inpp" placeholder="Enter Your Email" name="email" required/>
+      </div>
+      <!-- 3rd input -->
+      <div class="inp-main">
+        <label for="subject">Phone Number</label>
+        <input type="text" id="subject" class="inpp" placeholder="Enter Your phone number" name="subject" />
+      </div>
+
+      <!-- textarea -->
+      <div class="texta-main">
+        <label for="tt">Message</label>
+        <textarea id="tt" name="" id="" ></textarea>
+      </div>
+      <button type="button" class="btnbook">Send Message</button>
+    </form>
+  </section>
+  <section id="f-sect">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.178106470864!2d72.50365997526423!3d34.927069871033986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dc39f986d35589%3A0x406379e0778af54!2sBabu%20chinar%20hotel!5e0!3m2!1sen!2s!4v1748771514334!5m2!1sen!2s"
+       style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade" id="frame"></iframe>
+  </section>
+
+  <section id="sect-question">
+    <dl>
+      <div class="man">
+        <h3 id="title">Frequently Asked Questions</h3>
+        <div class="m2">
+          <dt class="data">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">What are your opening hours? </h3>
+            <button class="btn"><img src="./icons/down arrow.svg" width="20" alt=""></button>
+            <p class="ddd">We are open from 10 AM to 10 PM, seven days a week. Our kitchen closes at 9:30 PM.</p>
+          </dt>
+        </div>
+        <!-- second q -->
+        <div class="m2">
+          <dt class="data">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Do you take reservations? </h3>
+            <button class="btn"><img src="./icons/down arrow.svg" width="20" alt=""></button>
+            <p class="ddd">Yes, we accept reservations through our website or by phone. We recommend making reservations
+              in advance, especially for weekends.</p>
+          </dt>
+        </div>
+        <!-- question 3 -->
+        <div class="m2">
+          <dt class="data">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Is there parking available? </h3>
+            <button class="btn"><img src="./icons/down arrow.svg" width="20" alt=""></button>
+            <p class="ddd">Yes, we have a parking lot available for our customers. Street parking is also available
+              nearby..</p>
+          </dt>
+        </div>
+        <!-- question 4 -->
+        <div class="m2">
+          <dt class="data">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Do you offer catering services?
+            </h3><button class="btn"><img src="./icons/down arrow.svg" width="20" alt=""></button>
+            <p class="ddd">Yes, we provide catering services for events and special occasions. Please contact us for
+              more information and pricing.</p>
+          </dt>
+        </div>
+      </div>
+    </dl>
+  </section>
+  <!-- footer -->
+   <footer class="foot">
+        <div class="footer-main">
+            <h3 class="tit2">Visit Us</h4>
+                <p id="pop"> 123 Food Street, City, Country</p>
+        </div>
+
+        <div class="footer-main">
+            <h3 class="tit2">Contact Us</h4>
+                <p id="phone">+1 234 567 890 <br>
+                <p id="envolop"> info@delluna.com</p>
+                </p>
+        </div>
+        <div class="footer-main">
+            <h3 class="tit2">Follow Us</h4>
+                <div class="footerm2">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./icons/facebook-brands.svg"
+                            alt="facebook icon" width="22"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./icons/instagram-brands.svg"
+                            alt="instagram icon" width="30"></a>
+                    <a href="https://x.com/" target="_blank"><img src="./icons/twitter-brands.svg" alt="twitter icon"
+                            width="30"></a>
+                </div>
+
+        </div>
+        <hr style="color: rgb(138, 137, 137);">
+        <div class="ftfoot">
+            &copy;2025 Hotel Del Luna All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
